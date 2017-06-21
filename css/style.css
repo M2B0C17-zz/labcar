@@ -114,3 +114,35 @@ input{
 	border-radius: 8px;
 	background-color: #f7b617;
 }
+
+/*Sección 4*/
+
+.fondoSec4{
+	background-color: #f7b617;
+	color: white;
+	width: 100%;
+	height: 90vh;
+	padding-top: 5.3%;
+}
+
+.linea4{
+	border: 1px solid white;
+	width: 300px;
+	margin-left: 2%;
+}
+
+.espacio4{
+	padding-top: 5%;
+}
+
+/*Cambios en placeholder*/
+input::-webkit-input-placeholder {
+  	color: white;
+  	text-align: left;
+}
+
+.cajita4{
+	height: 450px;
+	width: 550px;
+	border: 1px solid white;
+}
