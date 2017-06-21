@@ -25,11 +25,10 @@
 	padding-left: 10%;
 	height: 330px;
 	padding-top: 3%;
-
 }
 
 .form2{
-		padding-top: 20%;
+	padding-top: 20%;
 }
 
 /*Inputs*/
@@ -84,4 +83,34 @@ input{
 	padding-top: 2%;
 	padding-right: 19%;
 	font-size: 20px;
+}
+
+/* Sección 3 */
+.imFondo3{
+	background-image: url(../img/conduce.jpg);
+	width: 100%;
+	height: 70vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cajaSec3{
+	padding-left: 10%;
+}
+
+.cajita3{
+	background-color: rgba(8, 2, 14, 0.5);
+	height: 300px;
+	color: white;
+	padding-left: 5%;
+	padding-top: 5%;
+	font-size: 20px;
+	padding-right: 10%;
+}
+
+.btnAmarillo{
+	border: 1px solid #f7b617;
+	border-radius: 8px;
+	background-color: #f7b617;
 }
