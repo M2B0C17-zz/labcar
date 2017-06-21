@@ -103,16 +103,15 @@
 					<h1>Tarifas</h1>
 					<p>Consulta las tarifas LabCar aquí</p>
 					<div class="espacio4">
-						<span><img src="img/circulo.png" alt="circulo"></span><input type="text" class="btn linea4" placeholder="Ingrese un punto de partida" id="input1">
+						<span><img src="img/circulo.png" alt="circulo"></span><input type="text" class="btn linea4 form-control textMap" placeholder="Ingrese un punto de partida" id="origen">
 					</div>
 					<div class="espacio4">
-						<span><img src="img/flecha.png" alt="flecha"></span><input type="text" class="btn linea4" placeholder="Ingrese su destino" id="input1">
+						<span><img src="img/flecha.png" alt="flecha"></span><input type="text" class="btn linea4 form-control textMap" placeholder="Ingrese su destino" id="destino">
 					</div>
-					<button type="submit" class="btn btn-default btnSec4">¡TRAZAR RUTA!</button>
+					<button type="submit" class="btn btn-default btnSec4" id="ruta">¡TRAZAR RUTA!</button>
 				</div>
-				<div class="col-md-6 col-xs-12 cajita4">
-					
-					
+				<div class="col-md-6 col-xs-12" id="map">
+					<!--  Geolocalization --> <!-- Mapa -->
 				</div>
 			</div>
 		</div>	
@@ -126,9 +125,9 @@
 			</div>
 		</div>
 	</footer>
-	<!-- Maps Clave : AIzaSyBvQuGpOBRU3qRNlkFtJl22MP_Lorkc608 -->
+	<!-- Maps Clave : AIzaSyDXMHY4bdig4zGZfnP-PTYqaTowp3P6dDM  -->
 	<!-- Autocomplete -->
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvQuGpOBRU3qRNlkFtJl22MP_Lorkc608&callback=initMap&libraries=places"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXMHY4bdig4zGZfnP-PTYqaTowp3P6dDM&callback=initMap&libraries=places"></script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Bootstrap Latest compiled and minified JavaScript -->
