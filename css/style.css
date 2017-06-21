@@ -170,3 +170,14 @@ input::-webkit-input-placeholder {
 	border-bottom-width: 10px;
 	border-right-width: 10px;
 }
+
+/*Sección Footer*/
+
+.fondColors{
+	background-color: #2b2b2b;
+}
+
+.lineaHR{
+	width: 98%;
+	height: 2px;
+}
