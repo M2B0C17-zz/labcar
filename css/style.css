@@ -2,6 +2,7 @@
 	background-color: white;
 	width: 100%;
 	height: 100px;
+	padding-top: 3%;
 }
 
 /* Sección 1 */
@@ -175,9 +176,39 @@ input::-webkit-input-placeholder {
 
 .fondColors{
 	background-color: #2b2b2b;
+	padding: 5%;
 }
 
 .lineaHR{
 	width: 98%;
 	height: 2px;
+}
+
+/*Iconos*/
+.iconini{
+	color: white;
+}
+
+.link{
+	color: white;
+}
+
+/*Fotos Footer*/
+.fotFooter{
+	width: 50%;
+}
+
+.iconini{
+	margin-top: 60%;
+	margin-left: 5%;
+}
+
+.topFoto{
+	margin-top: 8%;
+}
+
+/*Final Text*/
+.textUltimo{
+	color: white;
+
 }
