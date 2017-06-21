@@ -21,9 +21,37 @@
 	color: white;
 }
 
+.formularioCaja{
+	padding-left: 10%;
+	height: 330px;
+	padding-top: 3%;
+
+}
+
+.form2{
+		padding-top: 20%;
+}
+
 /*Inputs*/
 
 .linea{
 	border-bottom: 1px solid white;
-	width: 40px;
+	width: 120px;
+}
+
+input{
+	background: none; 
+	border: none; 
+	outline: 0;
+}
+
+.textForm{
+	display: inline-block;
+}
+
+/* Botón */
+.btnNegri{
+	font-weight: bold;
+	border: 1px solid #FFBE00;
+	border-radius: 8px;
 }
