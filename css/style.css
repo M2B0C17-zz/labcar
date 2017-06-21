@@ -125,6 +125,10 @@ input{
 	padding-top: 5.3%;
 }
 
+.caja4Text{
+	padding-top: 7%;
+}
+
 .linea4{
 	border: 1px solid white;
 	width: 300px;
@@ -144,5 +148,18 @@ input::-webkit-input-placeholder {
 .cajita4{
 	height: 450px;
 	width: 550px;
+	border: 1px solid white;
+}
+
+/*Botón*/
+.btnSec4{
+	font-weight: bold;
+	border: 1px solid #FFBE00;
+	margin-top: 3%;
+	margin-left: 19%;
+}
+
+.btnSec4:hover{
+	background-color: #f7b617;
 	border: 1px solid white;
 }
