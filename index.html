@@ -40,22 +40,41 @@
 	<header>
 		<div class="container imfondo">
 			<div class="row form2">
-				<div class="col-md-6 col-xs-12">
+				<div class="col-md-6">
 					
 				</div>
-				<div class="col-md-6 col-xs-12 formulario">
+				<div class="col-md-6 hidden-xs formulario">
 					<div class="row">					
 						<form class="formularioCaja">
-							<div class="form-group">
-								<h1>Disfruta del viaje<br>Eres dueño de tu tiempo</h1>
-								<h3>Viaja con  <img src="img/logo-blanco.png" alt="logo"></h3>
-								<h5>REGÍSTRATE</h5>
-								<input type="text" class="btn linea textForm" id="input1">
-								<p class="textForm oBien">O bien</p>
-								<input type="text" class="btn linea textForm" id="input2">
+							<!-- Vista Normal -->
+							<div class="hidden-xs">
+								<div class="form-group">
+									<h1>Disfruta del viaje<br>Eres dueño de tu tiempo</h1>
+									<h3>Viaja con  <img src="img/logo-blanco.png" alt="logo"></h3>
+									<h5>REGÍSTRATE</h5>
+									<input type="text" class="btn linea textForm" id="input1">
+									<p class="textForm oBien">O bien</p>
+									<input type="text" class="btn linea textForm" id="input2">
+								</div>
+								<div>
+									<button type="submit" class="btn btn-default btnNegri">Conviértete en un conductor</button>
+								</div>
 							</div>
-							<div>
-								<button type="submit" class="btn btn-default btnNegri">Conviértete en un conductor</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-xs-9 col-xs-offset-3 hidden-md hidden-lg formulario">
+					<div class="row">					
+						<form class="formularioCaja">
+							<!-- Vista Mobile -->
+							<div class="hidden-md hidden-lg">
+								<div class="form-group">
+									<h1>Comienza a<br>viajar con</h1>
+									<img src="img/logo-blanco.png" alt="logo">
+								</div>
+								<div>
+									<button type="submit" class="btn btn-default btnNegri">Descarga el app</button>
+								</div>
 							</div>
 						</form>
 					</div>
@@ -110,7 +129,7 @@
 					</div>
 					<button type="submit" class="btn btn-default btnSec4" id="ruta">¡TRAZAR RUTA!</button>
 				</div>
-				<div class="col-md-6 col-xs-12" id="map">
+				<div class="col-md-6 col-xs-12 hidden-xs" id="map">
 					<!--  Geolocalization --> <!-- Mapa -->
 				</div>
 			</div>
