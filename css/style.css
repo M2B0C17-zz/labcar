@@ -7,6 +7,15 @@
 	padding-top: 3%;
 }
 
+.colorNavbar{
+	background: white;
+}
+
+.logo{
+	padding-left: 20px;
+	padding-right: 50px; 
+}
+
 /* Sección 1 */
 
 .imfondo{
